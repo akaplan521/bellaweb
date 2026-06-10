@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Artist portfolio, prints, and tattoo work by Bella Kortes.">
+  <title>Bella Kortes</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+  <!-- ── Nav ─────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Bella <span>Kortes</span></a>
+      <ul class="nav__links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="tattoo.html">Tattoo</a></li>
+        <li><a href="shop.html" class="nav__cta">Shop prints</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="hero__inner">
+
+        <!-- Left: typographic block -->
+        <div class="hero__type">
+          <p class="hero__eyebrow label">Artist &amp; Tattooist — Burlington, VT</p>
+          <h1 class="hero__name">
+            <span class="hero__name--light">Bella</span>
+            <span class="hero__name--italic">Kortes</span>
+          </h1>
+          <div class="hero__rule"></div>
+          <p class="hero__tagline">
+            Original works, fine art prints,<br>and custom tattoo.
+          </p>
+          <div class="hero__actions">
+            <a href="portfolio.html" class="btn btn--primary">View portfolio</a>
+            <a href="tattoo.html#booking" class="btn btn--outline">Book a tattoo</a>
+          </div>
+        </div>
+
+        <!-- Right: featured image -->
+        <div class="hero__image-wrap">
+          <div class="hero__image-frame">
+            <!-- Replace src with an actual work image -->
+            <img
+              src="images/tattooflashes.jpeg"
+              alt="Featured artwork by Bella Kortes"
+              class="hero__image"
+              width="540"
+              height="640"
+            >
+          </div>
+          <div class="hero__image-caption">
+            <span class="label">Featured work</span>
+            <span class="hero__image-title">title, date</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="label">Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ── Portfolio preview ─────────────────────────────────── -->
+    <section class="section" id="work">
+      <div class="section__header">
+        <span class="label">Selected work</span>
+        <h2>Recent pieces</h2>
+        <a href="portfolio.html" class="section__link">Full portfolio →</a>
+      </div>
+
+      <div class="preview-grid">
+        <!-- Repeat: replace src and alt with real images -->
+        <a href="portfolio.html" class="preview-item preview-item--tall">
+          <div class="preview-item__img-wrap">
+            <img src="images/art/preview-1.jpg" alt="[Piece title]" loading="lazy">
+          </div>
+          <div class="preview-item__info">
+            <span>[Piece title]</span>
+            <span class="label">[Medium], [Year]</span>
+          </div>
+        </a>
+        <a href="portfolio.html" class="preview-item">
+          <div class="preview-item__img-wrap">
+            <img src="images/art/preview-2.jpg" alt="[Piece title]" loading="lazy">
+          </div>
+          <div class="preview-item__info">
+            <span>[Piece title]</span>
+            <span class="label">[Medium], [Year]</span>
+          </div>
+        </a>
+        <a href="portfolio.html" class="preview-item">
+          <div class="preview-item__img-wrap">
+            <img src="images/art/preview-3.jpg" alt="[Piece title]" loading="lazy">
+          </div>
+          <div class="preview-item__info">
+            <span>[Piece title]</span>
+            <span class="label">[Medium], [Year]</span>
+          </div>
+        </a>
+        <a href="portfolio.html" class="preview-item preview-item--wide">
+          <div class="preview-item__img-wrap">
+            <img src="images/art/preview-4.jpg" alt="[Piece title]" loading="lazy">
+          </div>
+          <div class="preview-item__info">
+            <span>[Piece title]</span>
+            <span class="label">[Medium], [Year]</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ── Shop teaser ───────────────────────────────────────── -->
+    <section class="shop-teaser">
+      <div class="section">
+        <div class="shop-teaser__inner">
+          <div class="shop-teaser__text">
+            <span class="label">Prints</span>
+            <h2 class="shop-teaser__heading">Own the work</h2>
+            <p class="shop-teaser__body">
+              Fine art prints of selected pieces, printed and fulfilled by hand.
+              Each print is signed and shipped with care.
+            </p>
+            <a href="shop.html" class="btn btn--primary">Browse prints</a>
+          </div>
+          <div class="shop-teaser__prints">
+            <!-- Three stacked/fanned print thumbnails -->
+            <div class="print-stack">
+              <div class="print-stack__item print-stack__item--back">
+                <img src="images/art/print-2.jpg" alt="" aria-hidden="true" loading="lazy">
+              </div>
+              <div class="print-stack__item print-stack__item--mid">
+                <img src="images/art/print-3.jpg" alt="" aria-hidden="true" loading="lazy">
+              </div>
+              <div class="print-stack__item print-stack__item--front">
+                <img src="images/art/print-1.jpg" alt="Sample print" loading="lazy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ── Tattoo teaser ─────────────────────────────────────── -->
+    <section class="section" id="tattoo">
+      <div class="section__header">
+        <span class="label">Tattoo</span>
+        <h2>Custom &amp; flash</h2>
+        <a href="tattoo.html" class="section__link">Full portfolio →</a>
+      </div>
+
+      <div class="tattoo-teaser">
+        <div class="tattoo-teaser__gallery">
+          <a href="tattoo.html" class="tattoo-thumb">
+            <img src="images/tattoo/thumb-1.jpg" alt="[Tattoo description]" loading="lazy">
+          </a>
+          <a href="tattoo.html" class="tattoo-thumb">
+            <img src="images/tattoo/thumb-2.jpg" alt="[Tattoo description]" loading="lazy">
+          </a>
+          <a href="tattoo.html" class="tattoo-thumb">
+            <img src="images/tattoo/thumb-3.jpg" alt="[Tattoo description]" loading="lazy">
+          </a>
+          <a href="tattoo.html" class="tattoo-thumb">
+            <img src="images/tattoo/thumb-4.jpg" alt="[Tattoo description]" loading="lazy">
+          </a>
+          <a href="tattoo.html" class="tattoo-thumb">
+            <img src="images/tattoo/thumb-5.jpg" alt="[Tattoo description]" loading="lazy">
+          </a>
+        </div>
+        <div class="tattoo-teaser__cta">
+          <p>Taking bookings for custom work and flash. Fill out the form to get in touch.</p>
+          <a href="tattoo.html#booking" class="btn btn--outline">Book a session</a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ── About teaser ──────────────────────────────────────── -->
+    <section class="about-teaser">
+      <div class="section">
+        <div class="about-teaser__inner">
+          <div class="about-teaser__image-wrap">
+            <img
+              src="images/tree_portrait.jpeg"
+              alt="Portrait of Bella Kortes"
+              class="about-teaser__image"
+              loading="lazy"
+              width="400"
+              height="500"
+            >
+          </div>
+          <div class="about-teaser__text">
+            <span class="label">About</span>
+            <h2 class="about-teaser__heading">Bella Kortes</h2>
+            <p class="about-teaser__bio">
+              Based in Brooklyn, New York
+            </p>
+            <a href="about.html" class="about-teaser__link">Read more →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">Bella Kortes</span>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://instagram.com/bellamiaart" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="shop.html">Shop</a>
+        <a href="tattoo.html">Tattoo</a>
+        <a href="about.html">About</a>
+      </nav>
+      <span class="footer__copy">&copy; <span id="year"></span> Bella Kortes</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
