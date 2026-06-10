@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Bella Kortes — artist and tattooist based in Brooklyn, NY.">
+  <title>About — Bella Kortes</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+  <!-- ── Nav ─────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Bella <span>Kortes</span></a>
+      <ul class="nav__links">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="tattoo.html">Tattoo</a></li>
+        <li><a href="shop.html" class="nav__cta">Shop prints</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── Page header ───────────────────────────────────────── -->
+    <div class="page-header">
+      <div class="section">
+        <span class="label">About</span>
+        <h1 class="page-header__title">Bella Kortes</h1>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- ── Bio ───────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="about__inner">
+
+        <div class="about__image-wrap">
+          <img
+            src="images/artist-portrait.jpg"
+            alt="Portrait of Bella Kortes"
+            class="about__image"
+            width="480"
+            height="600"
+          >
+        </div>
+
+        <div class="about__text">
+          <span class="label">Bio</span>
+
+          <div class="about__bio">
+            <p>
+              <!-- Replace with real bio paragraph 1 -->
+              test where p element goes
+            </p>
+            <p>
+              <!-- Replace with real bio paragraph 2 -->
+              p2
+            </p>
+            
+          </div>
+
+          <div class="about__details">
+            <div class="about__detail">
+              <span class="label">Based in</span>
+              <span>Brooklyn, NY</span>
+            </div>
+            <div class="about__detail">
+              <span class="label">Available for</span>
+              <span>Custom tattoo, flash, print commissions</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ── Contact ───────────────────────────────────────────── -->
+    <section class="section" id="contact">
+      <div class="contact__inner">
+
+        <div class="contact__text">
+          <span class="label">Contact</span>
+          <h2 class="contact__heading">Get in touch</h2>
+          <p class="contact__body">
+            For general enquiries, commissions, or anything else —
+            use the form or reach out directly at
+            <a href="mailto:[email]" class="contact__email">[email@domain.com]</a>
+          </p>
+          <div class="contact__socials">
+            <a
+              href="https://instagram.com/[handle]"
+              target="_blank"
+              rel="noopener"
+              class="contact__social"
+              aria-label="Instagram"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+              @[handle]
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap">
+          <form class="contact__form" id="contact-form">
+            <div class="form-field">
+              <label class="form-label" for="name">Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                autocomplete="name"
+              >
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="email">Email</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                autocomplete="email"
+              >
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="subject">Subject</label>
+              <select class="form-input form-select" id="subject" name="subject">
+                <option value="" disabled selected>Select a topic</option>
+                <option value="general">General enquiry</option>
+                <option value="commission">Print commission</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="message">Message</label>
+              <textarea
+                class="form-input form-textarea"
+                id="message"
+                name="message"
+                placeholder="What's on your mind?"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary form-submit">Send message</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">Bella Kortes</span>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="https://instagram.com/bellamiaart" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="shop.html">Shop</a>
+        <a href="tattoo.html">Tattoo</a>
+        <a href="about.html">About</a>
+      </nav>
+      <span class="footer__copy">&copy; <span id="year"></span> Bella Kortes</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
